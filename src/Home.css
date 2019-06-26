@@ -1,0 +1,62 @@
+div.Dark {
+  background-color: #243447;
+  color: #eee;
+}
+
+div.Default {
+  background-color: #eee;
+  color: #243447;
+}
+
+main.Dark {
+  background-color: #243447;
+  color: #eee;
+}
+
+main.Default {
+  background-color: #eee;
+  color: #243447;
+}
+
+button.Default{
+  background-color: #243447;
+  color: #eee;
+}
+
+button.Dark {
+  background-color: #eee;
+  color: #243447;
+  }
+
+#theme-button{
+    display:inline-block;
+    /* float: right; */
+}
+
+.Navdiv{
+  color: #eee;
+}
+
+a:-webkit-any-link {
+  
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Navdiv{
+  color: #eee;
+}
+
+
+#home {
+    padding: 10px;
+    height:100%;
+    width:100%;
+    /* display:flex; */
+    /* justify-content:center; */
+    /* align-items:center; */
+}
+
+h1 {
+    margin-top: 0px;
+}
