@@ -1,32 +1,13 @@
-div.Dark {
+div.Dark, a.Dark, main.Dark, button.Dark, footer.Dark {
   background-color: #243447;
   color: #eee;
 }
 
-div.Default {
+div.Default, a.Default, main.Default, button.Default, footer.Default {
   background-color: #eee;
   color: #243447;
 }
 
-main.Dark {
-  background-color: #243447;
-  color: #eee;
-}
-
-main.Default {
-  background-color: #eee;
-  color: #243447;
-}
-
-button.Default{
-  background-color: #243447;
-  color: #eee;
-}
-
-button.Dark {
-  background-color: #eee;
-  color: #243447;
-  }
 
 #theme-button{
     display:inline-block;
@@ -34,11 +15,16 @@ button.Dark {
 }
 
 .Navdiv{
+  margin: 5px;
+  padding: 5px;
   color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30vh;
 }
 
 a:-webkit-any-link {
-  
   cursor: pointer;
   text-decoration: underline;
 }
@@ -47,16 +33,30 @@ a:-webkit-any-link {
   color: #eee;
 }
 
-
-#home {
-    padding: 10px;
-    height:100%;
-    width:100%;
-    /* display:flex; */
-    /* justify-content:center; */
-    /* align-items:center; */
-}
-
 h1 {
     margin-top: 0px;
 }
+
+footer {
+  flex: 1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+/* li > span{
+  position: absolute;
+  right:0;
+} */

@@ -1,6 +1,7 @@
 import React, {Component } from 'react';
 // import App from '../App';
 import { ThemeContext } from '../Home';
+import './ThemeButton.css';
 
 
 export default class ThemeButton extends Component {
@@ -22,11 +23,11 @@ export default class ThemeButton extends Component {
 
         {( {theme, setTheme} ) => {
             if (theme==='Default'){
-                return <button id='theme-button' className={theme} onClick={() => setTheme('Dark')} >Dark Mode</button>
+                return <button id='theme-button' className={theme} onClick={() => setTheme('Dark')} ></button> 
             }
             else if (theme==='Dark'){
                 console.log('got here')
-                return <button id='theme-button' className={theme} onClick={() => setTheme('Default')} >Default</button>
+                return <button id='theme-button' className={theme} onClick={() => setTheme('Default')} ></button>
             }
 
         //   return <button onClick={() => setTheme('dark')} >{theme}</button>

@@ -7,10 +7,18 @@ export default class Form extends Component{
     super(props);
     this.state = {
         salary: {
-            amount: 100000,
-            currency: 'USD',
-            type: 'base'
+            amount: 0,
+            currency: '',
+            type: 'base',
+            country: '',
+            state: '',
+            taxes: {
+                federal_income_tax_owed: 0,
+                state_income_tax_owed: 0,
+                local_income_tax_owed: 0,
             }
+            }
+
         }
     }
 
@@ -47,7 +55,8 @@ export default class Form extends Component{
                 value={this.state.salary.amount}
                 onChange={e => this.salaryChanged(e.target.value)}
                 required
-                placeholder="35,000">
+                placeholder="35,000"
+                defaultValue=''>
                 </input>
                 <button type='submit'>Submit</button>
             </form>

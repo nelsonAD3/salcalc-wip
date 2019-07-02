@@ -1,0 +1,36 @@
+#theme-button {
+    background-color: #cacaca;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    position: fixed;
+    bottom: 10vh;
+    right: 10vh;
+  }
+  
+  #theme-button {
+    padding: 16px 8px 8px;
+  }
+  
+  #theme-button:hover {
+    cursor: pointer;
+  }
+
+  #theme-button.Default{
+    background-color: #243447;
+    color: #eee;
+  }
+
+  #theme-button.Dark{
+    background-color: #eee;
+    color: #243447;
+  }
+  

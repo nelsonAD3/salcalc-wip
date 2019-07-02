@@ -25,7 +25,7 @@ export default function Output(props){
 
     return(
         <div>
-            <ul className='Untaxed Salary Figures'>
+            <ul className='Untaxed Salary Figures'><i>Base Salary Figures</i>
             <li>Annual Salary: 
                 <NumberFormat value={props.salary.amount} displayType={'text'} thousandSeparator={true} prefix={'$'} />
             </li>
@@ -36,7 +36,7 @@ export default function Output(props){
                 <NumberFormat value={props.salary.amount/24} displayType={'text'} thousandSeparator={true} prefix={'$'} decimalScale={2}/>
             </li>
             </ul>
-            <ul className='Taxed Salary Figures'><i>Single Filers, Trump Tax Code</i>
+            <ul className='Taxed Salary Figures'><i>Single Filers, After Federal Tax (Trump)</i>
             <li>Annual Salary: 
                 <NumberFormat value={salary_taxed} displayType={'text'} thousandSeparator={true} prefix={'$'} decimalScale={2}/>
             </li>
