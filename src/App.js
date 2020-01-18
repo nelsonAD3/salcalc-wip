@@ -6,7 +6,10 @@ import Output from './Output/Output';
 class App extends React.Component {
   state = {
     salary: {
-      amount: 0,
+      // amount: 0,
+      amount:{
+        value: ''
+      },
       currency: 'USD',
       type: 'base'
     },
@@ -18,12 +21,17 @@ class App extends React.Component {
   };
 
 
-  updateSalary(salary){
-    console.log('got here');
-    this.setState({
-      salary
-    })
-    console.log(salary);
+  // updateSalary(salary){
+  //   console.log('got here');
+  //   this.setState({
+  //     salary
+  //   })
+  //   console.log(salary);
+  // }
+
+  updateSalary(amount){
+    console.log(this.state);
+    this.setState({salary: {amount: {value: amount}}});
   }
 
   render(){
@@ -31,8 +39,8 @@ class App extends React.Component {
 
   return (
     <div id='App'>
-      <Form handleUpdate = {salary => this.updateSalary(salary)}/>
-      <Output salary={this.state.salary}/>
+      <Form handleUpdate = {(salary) => this.updateSalary(salary)}/>
+      <Output salary={this.state.salary.amount}/>
     </div>
   );
   }
