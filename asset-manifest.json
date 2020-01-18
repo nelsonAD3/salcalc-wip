@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/salcalc-wip/static/css/main.a8dfe697.chunk.css",
+    "main.js": "/salcalc-wip/static/js/main.a6f841e2.chunk.js",
+    "main.js.map": "/salcalc-wip/static/js/main.a6f841e2.chunk.js.map",
+    "runtime~main.js": "/salcalc-wip/static/js/runtime~main.525de802.js",
+    "runtime~main.js.map": "/salcalc-wip/static/js/runtime~main.525de802.js.map",
+    "static/js/2.af40dbbe.chunk.js": "/salcalc-wip/static/js/2.af40dbbe.chunk.js",
+    "static/js/2.af40dbbe.chunk.js.map": "/salcalc-wip/static/js/2.af40dbbe.chunk.js.map",
+    "index.html": "/salcalc-wip/index.html",
+    "precache-manifest.255c030b3fcc46dc7563badb235f62ba.js": "/salcalc-wip/precache-manifest.255c030b3fcc46dc7563badb235f62ba.js",
+    "service-worker.js": "/salcalc-wip/service-worker.js",
+    "static/css/main.a8dfe697.chunk.css.map": "/salcalc-wip/static/css/main.a8dfe697.chunk.css.map"
+  }
+}
